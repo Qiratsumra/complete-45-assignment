@@ -10,28 +10,28 @@ If you want to try more comparisons, write more tests. Have at least one True an
 var personName = "Qirat";
 // test for equality with string:
 console.log("Qirat is equals to ".concat(personName));
-console.log("Qirat" == personName);
+console.log("Qirat" === personName);
 // test for unequality with string:
 console.log("qirat is equals to ".concat(personName));
-console.log("qirat" == personName);
+console.log("qirat" === personName);
 //  Tests using the lower case function:
 // test for true:
 var person = "QIRAT";
 var name1 = "qirat";
 console.log("qirat is equals to QIRAT after converting into lower case");
-console.log(name1 == person.toLowerCase());
+console.log(name1 === person.toLowerCase());
 // test for false:
 console.log("Qirat is equals to QIRAT after converting into lower case");
-console.log(personName == person.toLowerCase());
+console.log(personName === person.toLowerCase());
 // Numerical tests involving equality and inequality, greater than and less than, greater than or equal to, and less than or equal to:
 var a = 2;
 var b = 3;
 // test for equality:
 console.log("2 is not equals to 3");
-console.log(a != b);
+console.log(a !== b);
 // test for inequality:
 console.log("2 is equals to 3");
-console.log(a == b);
+console.log(a === b);
 // test for greater than:
 console.log("3 is greater than 2");
 console.log(b > a);
@@ -45,9 +45,9 @@ console.log("2 is greater than 3");
 console.log(a > b);
 // test for equality
 console.log("2 is not equals to 3");
-console.log(a != b);
+console.log(a !== b);
 console.log("2 is equals to 3");
-console.log(a == b);
+console.log(a === b);
 // test for less than:
 console.log("2 is less than 3");
 console.log(a < b);

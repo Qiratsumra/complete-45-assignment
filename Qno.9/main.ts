@@ -4,6 +4,6 @@
  let favNumber:number=6;
  let 
 
-message:string="My favorite number is ";
+message:string="My favorite number is:";
 
 console.log(`${message} ${favNumber}`);

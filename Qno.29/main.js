@@ -4,13 +4,6 @@ Make a array of your favorite fruits, and then write a series of independent if 
 
 • Write five if statements. Each should check whether a certain kind of fruit is in your array.
 If the fruit is in your array, the if block should print a statement, such as You really like bananas!*/
-var favorite_fruits = ["Mango", "Apple", "Pineapple"];
-if (favorite_fruits.includes("Mango")) {
-    console.log("I really like Mango");
-}
-if (favorite_fruits.includes("Apple")) {
-    console.log("I really like Apple");
-}
-if (favorite_fruits.includes("Pineapple")) {
-    console.log("I really like Pineapple");
-}
+var fruitList = ["Apple", "Mango", "Banana", "Orange", "Kiwi"];
+console.log("is Pineapple is include in fruitList:", fruitList.includes("Pineapple")); //Output is false;
+console.log("Is Apple is include in fruitList: ".concat(fruitList.includes("Apple"))); //output is true

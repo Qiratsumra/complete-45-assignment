@@ -10,20 +10,9 @@ Add a print statement at the end of your program stating the name of the guest w
 • Print a second set of invitation messages, one for each person who is still in your list.*/
 
 
-// make a guest list:
-let guestsList:string[]=["Dua","Laiba","Sara","Haleema","A.bari"];
-
-// select the guest who is not come: 
-let guestUnableToCome=guestsList[3];
-
-// add a new guest in the replacement of guest who is not come:
-guestsList.splice(3,1,"Ahmed");
-
-// print the message for each guest:
-guestsList.forEach(guest => console.log(`Hey ${guest} I'am inviting you for dinner.`)
-);
-
-// print the guest who is coming:
-console.log(guestUnableToCome,"unable to come.");
-
+let GuestList:string[]=["Sumra","Saeed","Kinza"];
     
+let unableToCome = GuestList[1];
+GuestList.splice(1,1,"Qirat");
+GuestList.forEach(GuestList=> console.log(`${GuestList} you are invited for dinner`))
+console.log(`${unableToCome} is unable to come for dinner`);
